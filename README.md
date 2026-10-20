@@ -2,12 +2,12 @@
 
 ## Identificação
 
-- **Nome:** [SEU NOME COMPLETO]
+- **Nome:** Eduardo César
 - **Projeto escolhido:** Opção 1 – Boletim de uma pequena turma
 
 ## Descrição
 
-O programa resolve o problema de registrar três notas de cada estudante e obter um resumo dos resultados da turma. Foi escrito em C, em um único arquivo (`main.c`).
+O programa resolve o problema de registrar três notas de cada estudante e obter um resumo dos resultados da turma. Foi escrito em C, em um único arquivo (`Av2.c`).
 
 ### Funcionalidades implementadas
 
@@ -36,14 +36,14 @@ As notas são `float`; médias e somas são `double`, evitando perda de informa�
 Requer o compilador GCC.
 
 ```
-gcc -std=c11 -Wall -Wextra main.c -o programa
+gcc -std=c11 -Wall -Wextra Av2.c -o programa
 ./programa
 ```
 
 No Windows (por exemplo, com MinGW/MSYS2), use:
 
 ```
-gcc -std=c11 -Wall -Wextra main.c -o programa.exe
+gcc -std=c11 -Wall -Wextra Av2.c -o programa.exe
 .\programa.exe
 ```
 
@@ -97,7 +97,7 @@ Dois estudantes, Ana e Bia, ambas com notas 6, 6 e 6: o programa exibe `Maior me
 
 ## Vídeo
 
-Apresentação no YouTube: [COLE AQUI O LINK DO VÍDEO]
+Apresentação no YouTube: https://youtu.be/yQ71h4yRRDg
 
 ## Referências
 
